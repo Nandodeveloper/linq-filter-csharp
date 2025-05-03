@@ -1,4 +1,4 @@
-﻿namespace Practice;
+﻿namespace Practice.Models;
 
 internal class Product
 {

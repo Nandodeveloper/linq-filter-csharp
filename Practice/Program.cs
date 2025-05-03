@@ -1,7 +1,8 @@
-﻿using Practice;
+﻿using Practice.Filters;
+using Practice.Models;
 
-List<int> inteiros = [1, 1, 3, 4, 5, 9, 9, 3, 4, 2, 8, 7, 5, 6, 12, 13, 16, 754, 700, 234, 123, 125];
-//Filter.LinqFilter(inteiros);
+List<int> inteiros = [1, 1, 2, 3, 4, 5, 9, 9, 3, 4, 2, 8, 7, 5, 6, 12, 13, 16, 754, 700, 234, 123, 125];
+Filter.LinqFilter(inteiros);
 Filter.LinqFilterPairs(inteiros);
 
 Book book1 = new Book("Pequeno Principe", 2003, "Fernando");
@@ -17,7 +18,7 @@ books.Add(book3);
 books.Add(book4);
 books.Add(book5);
 
-//Filter.LinqFilterBook(books);
+Filter.LinqFilterBook(books);
 
 Product product = new Product("Caderno", 5.99);
 Product product2 = new Product("Caneta", 1.99);
@@ -30,4 +31,4 @@ products.Add(product2);
 products.Add(product3);
 products.Add(product4);
 
-//Filter.LinqFilterProduct(products);
+Filter.LinqFilterProduct(products);

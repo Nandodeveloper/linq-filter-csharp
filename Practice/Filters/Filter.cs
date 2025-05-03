@@ -1,6 +1,7 @@
 ﻿using System.Linq;
+using Practice.Models;
 
-namespace Practice;
+namespace Practice.Filters;
 
 internal class Filter
 {
